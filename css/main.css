@@ -62,18 +62,21 @@ h1 img {
 
 main {
   margin: .5em;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #afafaf;
 }
 
-p {
-  font-size: 1.125rem;
+main p {
+  font-size: 1rem;
   border-bottom: 2px solid #afafaf;
   padding-bottom: 1rem;
+  padding-top: 0;
 }
 
 h2 {
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 1.25rem;
-  padding-top: 1rem;
+  padding-top: .5rem;
   padding-bottom: 1rem;
 }
 
@@ -100,15 +103,19 @@ h3 {
   font-size: 1.125rem;
   color: #000;
   background-color: #afafaf;
-  opacity: .5;
+  opacity: .8;
   grid-row: 3;
   grid-column: 1 /-1;
   z-index: 1;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: .5em;
 }
 
 li > img {
   grid-row: 1 / -1;
   grid-column: 1 /-1;
+  width: 100%;
 }
 
 div {
@@ -137,4 +144,14 @@ div > strong {
   font-style: italic;
   color: #000;
   padding: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: .875rem;
+}
+
+footer > a {
+  color: inherit;
 }
