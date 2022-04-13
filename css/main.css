@@ -16,6 +16,11 @@ body {
   margin: 0;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
 header {
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
@@ -34,7 +39,7 @@ nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 3rem 1rem;
+  padding: 2rem 1rem;
   margin: 0;
 }
 
@@ -95,7 +100,7 @@ section ul li {
   border-radius: 6px;
   background-color: #ccc;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: .5fr 1fr .7fr;
 }
 
 h3 {
@@ -150,8 +155,13 @@ footer {
   display: flex;
   justify-content: space-between;
   font-size: .875rem;
+  padding: 0;
 }
 
 footer > a {
   color: inherit;
+}
+
+a:hover {
+  color: orange;
 }
