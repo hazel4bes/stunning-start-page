@@ -20,17 +20,17 @@ header {
   grid-template-rows: 3fr 1fr;
 }
 
-nav ul {
+nav {
   list-style: none;
   background-color: #bd027d;
   grid-column: 1 / -1;
   grid-row: 1;
+}
+
+nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-ul li a {
   color: #eccee2;
   font-family: "PT Sans Narrow", sans-serif;
   text-decoration: none;
