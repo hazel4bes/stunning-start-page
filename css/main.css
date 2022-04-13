@@ -120,16 +120,19 @@ div {
   border-style: hidden;
   border-radius: 1em 0 0 1em;
   background-color: #bebebe;
-  opacity: .5;
+  opacity: .7;
   padding: .5em;
   margins
 }
 
 div > img {
   width: 10%;
+  order: -1;
+  opacity: 1;
 }
 
 div > strong {
   font-size: .875rem;
   font-style: italic;
+  opacity: 1;
 }
