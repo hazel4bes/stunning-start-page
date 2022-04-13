@@ -22,8 +22,6 @@ header {
 
 nav {
   background-color: #bd027d;
-  grid-column: 1 / -1;
-  grid-row: 1;
   margin: 0;
 }
 
