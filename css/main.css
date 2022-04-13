@@ -32,7 +32,6 @@ nav {
 h1 {
   grid-column: 2;
   grid-row: 1 / -1;
-  justify-self: center;
   align-self: flex-start;
   z-index: 1;
   width: 100%
