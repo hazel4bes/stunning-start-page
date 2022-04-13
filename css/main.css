@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  margin-top: 0;
+  margin: 0;
 }
 
 header {
@@ -46,4 +46,5 @@ ul li a {
 h1 {
   grid-column: 2;
   grid-row: 1 / -1;
+  z-index: 1;
 }
