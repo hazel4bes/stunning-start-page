@@ -30,8 +30,8 @@ nav ul {
   list-style: none;
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
+  padding: 3rem;
 }
 
 ul li a {
