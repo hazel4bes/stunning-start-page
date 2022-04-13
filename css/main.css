@@ -32,7 +32,7 @@ nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 3rem;
+  padding: 3rem 1rem;
   margin: 0;
 }
 
@@ -42,7 +42,7 @@ ul li a {
   text-decoration: none;
   border: 2px solid #960062;
   border-radius: 6px;
-  padding: 1rem;
+  padding: .5rem;
   text-transform: uppercase;
 }
 
@@ -51,8 +51,9 @@ h1 {
   grid-row: 1 / -1;
   z-index: 1;
   margin: 0;
+  align-content: center;
 }
 
-h1 img {
-  width: 100%;
+img {
+  width: 130%;
 }
