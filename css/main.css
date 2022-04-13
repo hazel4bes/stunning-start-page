@@ -17,7 +17,7 @@ body {
 header {
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
-  grid-template-rows: 1fr
+  grid-template-rows: 1fr;
 }
 
 nav {
@@ -55,5 +55,5 @@ h1 {
 
 img {
   display: block;
-  width: 100%
+  width: 100%;
 }
