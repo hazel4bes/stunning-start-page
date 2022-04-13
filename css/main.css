@@ -101,8 +101,10 @@ h3 {
   background-color: #afafaf;
   background-opacity: .5;
   grid-row: 3;
+  grid-column: 1 /-1;
 }
 
 li > img {
   grid-row: 1 / -1;
+  grid-column: 1 /-1;
 }
