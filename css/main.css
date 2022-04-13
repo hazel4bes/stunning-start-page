@@ -11,8 +11,6 @@ html {
 }
 
 body {
-  margin-left: .5em;
-  margin-right: .5em;
   margin-top: 0;
 }
 
@@ -34,7 +32,8 @@ nav {
 h1 {
   grid-column: 2;
   grid-row: 1 / -1;
-  align-self: center;
+  justify-self: center;
+  align-self: flex-start;
   z-index: 1;
   width: 100%
 }
