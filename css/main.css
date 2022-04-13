@@ -20,13 +20,6 @@ header {
   grid-template-rows: 3fr 1fr;
 }
 
-h1 {
-  grid-column: 2;
-  grid-row: 1 / -1;
-  align-self: flex-start;
-  z-index: 1;
-}
-
 nav ul {
   list-style: none;
   background-color: #bd027d;
