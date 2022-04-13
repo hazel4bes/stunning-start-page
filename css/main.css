@@ -31,6 +31,9 @@ nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+ul li a {
   color: #eccee2;
   font-family: "PT Sans Narrow", sans-serif;
   text-decoration: none;
