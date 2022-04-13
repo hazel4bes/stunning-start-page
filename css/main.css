@@ -18,10 +18,10 @@ header {
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
   grid-template-rows: 3fr 1fr;
-  grid-template-areas:
 }
 
-nav {
+nav ul {
+  list-style: none;
   background-color: #bd027d;
   grid-column: 1 / -1;
   grid-row: 1;
@@ -35,10 +35,6 @@ h1 {
   grid-row: 1 / -1;
   align-self: flex-start;
   z-index: 1;
-}
-
-ul {
-  list-style: none;
 }
 
 ul li a {
